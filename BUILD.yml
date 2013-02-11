@@ -1,0 +1,23 @@
+---
+autoinstallver: 1
+name: node
+version: 0.99_01
+
+excludeext:
+  - .md
+  - .git
+  - .gitignore
+installto:
+    bin-symlink: /usr/local/bin
+
+
+depends:
+    - git-core 
+    - curl 
+    - build-essential 
+    - openssl 
+    - libssl-dev
+exludedir:
+    - bin-symlink
+
+installdir: /usr/local/lib/node_modules/npm/node_modules/npm
