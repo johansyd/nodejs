@@ -20,4 +20,4 @@ depends:
 exludedir:
     - bin-symlink
 
-installdir: /usr/local/lib/node_modules/npm/node_modules/npm
+installdir: /usr/local/lib/node_modules/npm
