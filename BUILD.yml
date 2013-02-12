@@ -1,7 +1,7 @@
 ---
 autoinstallver: 1
 name: node
-version: 0.99.1-1
+version: 0.8.19.1-1
 
 excludeext:
   - .md
