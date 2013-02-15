@@ -8,8 +8,10 @@ excludeext:
   - .git
   - .gitignore
 installto:
-    bin-symlink: /usr/local/bin
-
+    bin: /usr/local/bin
+    include: /usr/local/include
+    lib: /usr/local/lib
+    share: /usr/local/share
 
 depends:
     - git-core 
@@ -18,6 +20,11 @@ depends:
     - openssl 
     - libssl-dev
 exludedir:
-    - bin-symlink
+    - bin
+    - include
+    - lib
+    - share
 
-installdir: /usr/local/lib/node_modules/npm
+installdir: /usr/share/doc/node
+
+tests: t/
