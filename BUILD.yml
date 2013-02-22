@@ -1,6 +1,6 @@
 ---
 autoinstallver: 1
-name: node
+name: nodejs
 version: 0.8.19.1-1
 
 excludeext:
@@ -25,6 +25,6 @@ exludedir:
     - lib
     - share
 
-installdir: /usr/share/doc/node
+installdir: /usr/share/doc/nodejs
 
 tests: t/
